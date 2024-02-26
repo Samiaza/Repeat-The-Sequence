@@ -1,0 +1,14 @@
+<resources>
+    <!-- Sound Theme Preference -->
+    <string-array name="sound_theme_entries">
+        <item>Animals/Drum</item>
+        <item>Notes</item>
+        <item>Mobile/Social networks sounds</item>
+    </string-array>
+
+    <string-array name="sound_theme_values">
+        <item>animal</item>
+        <item>note</item>
+        <item>tech</item>
+    </string-array>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/gameStatusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/game_status_preparing"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/countLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:text="@string/score_text_view_name"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/gameCurrentCountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="@string/score_text_view_count" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="@string/highscore_text_view_name" />
+
+            <TextView
+                android:id="@+id/gameHighscoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="@string/highscore_text_view_count" />
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/gameButtonsFragmentContainerView"
+            android:name="com.example.unrepeatability.GameButtonsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="98"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

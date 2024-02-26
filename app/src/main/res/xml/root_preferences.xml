@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/sounds_header">
+
+        <SwitchPreference
+            app:key="sound_enabled"
+            app:defaultValue="true"
+            app:title="@string/sound_enable_title" />
+
+        <SeekBarPreference
+            app:dependency="sound_enabled"
+            app:key="sound_delay"
+            app:title="@string/sound_delay_title"
+            android:max="1000"
+            app:defaultValue="500"
+            app:min="100"
+            app:seekBarIncrement="100"
+            app:showSeekBarValue="true"/>
+
+        <ListPreference
+            app:defaultValue="animal"
+            app:entries="@array/sound_theme_entries"
+            app:entryValues="@array/sound_theme_values"
+            app:key="sound_theme"
+            app:title="@string/sound_theme_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/gameplay_header">
+
+        <CheckBoxPreference
+            app:key="hard"
+            app:title="@string/hardmode_title"
+            app:defaultValue="false"
+            app:summaryOff="@string/highlight_summary_off"
+            app:summaryOn="@string/highlight_summary_on"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RepeatTheSequence</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="greetings">Welcome to the best game ever!</string>
+    <string name="game_name">Repeat The Sequence</string>
+    <string name="btn_new_game_name">New game</string>
+    <string name="btn_free_game_name">Free game</string>
+    <string name="btn_settings_name">Settings</string>
+    <string name="btn_about_name">About</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="shared_preferences_file_name">shared_preferences</string>
+
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="game_status_preparing">preparing...</string>
+    <string name="score_text_view_name">Score:</string>
+    <string name="score_text_view_count">0</string>
+    <string name="highscore_text_view_name">Highscore:</string>
+    <string name="highscore_text_view_count">0</string>
+    <string name="game_status_free">Enjoy Free Game!</string>
+    <string name="game_status_general">Try to repeat the sequence!</string>
+    <string name="game_status_attention">Attention!</string>
+    <string name="game_status_lose">Game ended!</string>
+    <string name="sounds_header">Sounds</string>
+    <string name="sound_enable_title">Sound On/Off</string>
+    <string name="sound_delay_title">Delay between sounds in a chain</string>
+    <string name="sound_theme_title">Sound theme</string>
+    <string name="gameplay_header">Gameplay</string>
+    <string name="hardmode_title">Hard mode</string>
+    <string name="highlight_summary_off">Button highlight enabled</string>
+    <string name="highlight_summary_on">Button highlight disabled</string>
+    <string name="conditions_name">Conditions:</string>
+    <string name="conditions_content">\tThe interface consists of four buttons. When a button is pressed, a short sound is played. Each button has its sound, the sounds are of the same theme.\nAt first, the application plays a sequence of sounds with a small delay (e.g 500ms). Then, a user must repeat this sequence by successively pressing the desired buttons\nThe game is played by levels. With each level, one more sound is added to the playback sequence (previous elements of this sequence are the same). The sequence starts with one sound.</string>
+    <string name="author_text_view_name">Author:</string>
+    <string name="author_name_text_view_name">gemmaeme</string>
+    <string name="game_status_user_turn">Your turn!</string>
+
+</resources>
