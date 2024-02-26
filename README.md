@@ -6,11 +6,11 @@ Android app. A game where you need to repeat a random sequence of clicks.
 Это сравнительно простое в визуальном плане приложение, позволяющее продемонстрировать некоторые навыки в разработке.
 
 <p float="left">
-  <img src="/misc/images/menu.png" width="200" />
-  <img src="/misc/images/about.png" width="200" />
-  <img src="/misc/images/general.png" width="200" />
-  <img src="/misc/images/lose.png" width="200" />
-  <img src="/misc/images/settings.png" width="200" />
+  <img src="/misc/images/menu.png" width="180" />
+  <img src="/misc/images/about.png" width="180" />
+  <img src="/misc/images/general.png" width="180" />
+  <img src="/misc/images/lose.png" width="180" />
+  <img src="/misc/images/settings.png" width="180" />
 </p>
 
 ## Установка
